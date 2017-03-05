@@ -1,8 +1,8 @@
 class Complx < Formula
   desc "The LC-3 Simulator used in Georgia Tech CS2110."
   homepage "https://github.com/TricksterGuy/complx"
-  version "4.15.4"
-  url "https://github.com/TricksterGuy/complx.git", :using => :git, :revision => "882ff4687511fc59990a96cd8982d0d4f958b27d"
+  version "4.15.5"
+  url "https://github.com/TricksterGuy/complx.git", :using => :git, :tag => "4.15.5"
 
   # This pulls from the master branch instead of the specified version tag
   head do
