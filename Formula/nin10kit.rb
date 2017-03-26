@@ -1,4 +1,4 @@
-class nin10kit < Formula
+class Nin10kit < Formula
   desc "A set of tools for doing homebrew game development, includes look up table generators and and image to C exporter for Nintendo's Gameboy Advance, DS, and 3DS systems, used in Georgia Tech CS2261."
   homepage "https://github.com/skyman/nin10kit"
   version "0.1"
