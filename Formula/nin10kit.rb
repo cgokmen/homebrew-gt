@@ -1,8 +1,8 @@
 class Nin10kit < Formula
   desc "A set of tools for doing homebrew game development, includes look up table generators and and image to C exporter for Nintendo's Gameboy Advance, DS, and 3DS systems, used in Georgia Tech CS2261."
   homepage "https://github.com/skyman/nin10kit"
-  version "0.1"
-  url "https://github.com/skyman/nin10kit.git", :using => :git, :revision => "b2776673972edae1ef2c48619b68c195da984868"
+  version "0.2"
+  url "https://github.com/skyman/nin10kit.git", :using => :git, :revision => "17902ac0273ca54409e6e0b02eb8e56a5d75c47f"
 
   # This pulls from the master branch instead of the specified version tag
   head do
