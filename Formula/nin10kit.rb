@@ -1,8 +1,8 @@
 class Nin10kit < Formula
   desc "A set of tools for doing homebrew game development, includes look up table generators and and image to C exporter for Nintendo's Gameboy Advance, DS, and 3DS systems, used in Georgia Tech CS2261."
   homepage "https://github.com/TricksterGuy/nin10kit"
-  version "1.6"
-  url "https://github.com/TricksterGuy/nin10kit.git", :using => :git, :tag => "1.6"
+  version "1.7"
+  url "https://github.com/TricksterGuy/nin10kit.git", :using => :git, :tag => "1.7"
 
   # This pulls from the master branch instead of the specified version tag
   head do
