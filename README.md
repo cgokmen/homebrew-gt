@@ -7,7 +7,7 @@ Install homebrew if you haven't already:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Install nin10kit:
+Install complx:
 ```bash
-brew install skyman/gt/nin10kit
+brew install skyman/gt/complx
 ```
