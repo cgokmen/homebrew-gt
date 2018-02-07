@@ -11,6 +11,7 @@ class Complx < Formula
 
   depends_on "cmake" => :build
   depends_on "wxmac" => :required
+  depends_on "glib" => :required
 
   def install
     mkdir "build" do
