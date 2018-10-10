@@ -1,8 +1,8 @@
 class Complx < Formula
   desc "The LC-3 Simulator used in Georgia Tech CS2110."
   homepage "https://github.com/TricksterGuy/complx"
-  version "4.16.5"
-  url "https://github.com/TricksterGuy/complx.git", :using => :git, :tag => "4.16.5"
+  version "4.18.0"
+  url "https://github.com/TricksterGuy/complx.git", :using => :git, :tag => "4.18.0"
 
   # This pulls from the master branch instead of the specified version tag
   head do
@@ -16,7 +16,7 @@ class Complx < Formula
 
   def install
     mkdir "build" do
-      system "cmake", "..", *std_cmake_args
+      system "cmake", "..", *std_cmake_args, "-DENABLE_COMPLX=ON"
       system "make"
       system "make", "install"
     end
